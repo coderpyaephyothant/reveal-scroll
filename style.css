@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Noto+Sans:wght@400;700&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #111222;
+
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.main-title,
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.content{
+    /* margin: auto; */
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.content .image {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(20px);
+    padding: 40px;
+    max-width: 30%;
+    border-radius: 10px;
+    transform: translate(-60px,20px);
+    z-index: 2000;
+    text-align:end;
+}
+
+.text-box h2,
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.media-icons {
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+    
+}
+
+.media-icons a {
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.info {
+    margin-left:50px ;
+    max-width: 30%;
+    border-radius: 10px;
+    text-align:end;
+    text-align: justify;
+}
+
+.media-info {
+    width: 400px;
+    margin-left: 50px;
+    /* background-color: yellow; */
+}
+
+.media-info li {
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.media-info li a {
+    color:#fff;
+    text-decoration: none;   
+}
+
+.media-info li:nth-child(1),
+.media-info li:nth-child(4) {
+    padding-left: 80px;
+}
+
+.media-info li:nth-child(2),
+.media-info li:nth-child(3) {
+    padding-left: 40px;
+}
+
+.sec-03 {
+    margin-bottom: 50px;
+}
